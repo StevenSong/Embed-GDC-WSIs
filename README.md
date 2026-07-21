@@ -13,6 +13,6 @@ As the WSIs are large files, we rely on the GDC Data Transfer Tool to fetch data
     gdc-client download \
     --manifest manifests/manifest.txt \
     --log-file download.log \
-    --dir /path/to/save/data
+    --dir /path/to/save/data # < make sure this directory exists before you start the download
     ```
 3. Extract and cleanup data: TODO
